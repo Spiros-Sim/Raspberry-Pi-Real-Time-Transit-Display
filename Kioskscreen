@@ -27,15 +27,33 @@ b)Paste this EXACTLY:
 
 #!/bin/bash
 
-URL="http://www.transitchicago.com/diydisplay/?s1=41220&s2=41220&tto=n"
-
+# Disable screen blanking
 xset s off
 xset -dpms
 xset s noblank
 
+# Hide mouse cursor
 unclutter -idle 0 &
 
-chromium --kiosk --force-device-scale-factor=0.62 --noerrdialogs --disable-infobars --incognito "$URL"
+# Give the desktop time to load
+sleep 2
+
+# Launch CTA display
+chromium \
+    --kiosk \
+    --start-fullscreen \
+    --window-size=800,480 \
+    --window-position=0,0 \
+    --force-device-scale-factor=1 \
+    --noerrdialogs \
+    --disable-infobars \
+    --disable-session-crashed-bubble \
+    --disable-translate \
+    --user-data-dir=/home/spypi/cta-kiosk \
+    --incognito \
+    "http://www.transitchicago.com/diydisplay/?s1=41220&size=big&w=0"
+
+
 
 
 
