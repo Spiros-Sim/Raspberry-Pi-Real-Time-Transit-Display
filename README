@@ -6,7 +6,9 @@ Raspberry Pi 3 or newer ( Pi 4B was used here)
 An sd card and computer to flash the firmware.
 Access to a 3D printer for the enclosure or use the provided stand.
 
-Following the Raspberry Pi instructions download any of the standard operating systems for your device.Create a URL for the ideal transit display from here. Then using the file Kioskscreen create and add the URL before rebooting the device.
+Following the Raspberry Pi instructions download any of the standard operating systems for your device.
+Create a URL for the ideal transit display from here. [CTA Bus Tracker Link] (https://www.transitchicago.com/developers/diybtform/)
+Then using the file Kioskscreen create and add the URL before rebooting the device.
 
 
 The 3d printed enclosure is meant to provide a durable case and a comfortable viewing angle from a desk or table. It can be printed with PLA and on any side with minimal supports.
