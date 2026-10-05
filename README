@@ -12,4 +12,4 @@ Then using the file Kioskscreen create and add the URL before rebooting the devi
 
 
 The 3d printed enclosure is meant to provide a durable case and a comfortable viewing angle from a desk or table. It can be printed with PLA and on any side with minimal supports.
-Two versions of the enclosure exisit. One is meant to provide access to the GPIO pins while the other version is meant as a display only.
+Two versions of the enclosure exisit. One is meant to provide access to the GPIO pins while the other version is meant as a display only. A keyboard may be required to zoom in or out on the kiosk screen. 
