@@ -1,0 +1,13 @@
+Raspberry Pi Real-Time Transit Display
+
+This project is used to track specific CTA bus and train routes but can be modified for other transit groups. For this project the following are required:
+Raspberry Pi 3 or newer ( Pi 4B was used here)
+7-inch display ( A 5-inch display would also work) [Amazon Link](https://www.amazon.com/dp/B0D3QB7X4Z?ref_=pe_148126100_1193965070_i_fed_asin_title&th=1)
+An sd card and computer to flash the firmware.
+Access to a 3D printer for the enclosure or use the provided stand.
+
+Following the Raspberry Pi instructions download any of the standard operating systems for your device.Create a URL for the ideal transit display from here. Then using the file Kioskscreen create and add the URL before rebooting the device.
+
+
+The 3d printed enclosure is meant to provide a durable case and a comfortable viewing angle from a desk or table. It can be printed with PLA and on any side with minimal supports.
+Two versions of the enclosure exisit. One is meant to provide access to the GPIO pins while the other version is meant as a display only.
